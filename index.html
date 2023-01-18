@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Project</title>
+</head>
+<style type="text/css">
+
+/* Top Nav Bar */
+.topnav a {
+  float: left;
+  color: #262721;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+th, td {
+  padding: 15px;
+}
+
+.topnav {
+  padding: 0px 60px;	
+  overflow: hidden;
+  background-color: #FFFFFD;
+  display: flex; 
+  justify-content: space-between;
+}
+
+.services {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.grid-container1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-container2 {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  border-radius: 8px;
+  padding: 20px;
+/*  font-size: 30px;
+  text-align: center;*/
+}
+
+.getting_started {
+  text-align: center; 
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px
+}
+
+.div_boder{
+	padding: 12px;
+	display: flex;
+  	justify-content: space-between;
+	border-style: groove;
+	border-radius: 12px
+}
+
+.footer-social,a,link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+/* Top Nav Bar */
+
+</style>
+<body>
+
+	<main>
+
+	<div class="topnav">
+  		<a class="active" href="#home"> <img src="files\images\compass.png" height="20px" width="20px"> About</a>
+
+  		<div>
+  			<a href="#news">Product <img src="files\images\down_arrow.png" height="20px" width="20px"> </a>
+  			<a href="#contact">Solutions <img src="files\images\down_arrow.png" height="20px" width="20px"> </a>
+  			<a href="#about">Resources <img src="files\images\down_arrow.png" height="20px" width="20px"> </a>
+  			<a href="#about">Prising <img src="files\images\down_arrow.png" height="20px" width="20px"> </a>
+  			<a href="#about">Subscribe <img src="files\images\down_arrow.png" height="20px" width="20px"> </a>
+  		</div>
+	</div>
+
+
+	<div class = "banner">
+  		<img src="files\images\braner.jpg" height="400px" style="width: 100%; z-index: 0;">
+  	</div>
+
+
+  	<div class = "services">
+  		<div class="services_heading">
+  			<h1>Online  Information Technology Courses</h1>
+  			<h4> We specialise in organising professionl <br> training courses. </h4>
+  		</div>
+
+  		<div class="grid-container1">
+
+  			<div class="grid-item" style="background-color: #9966CC">
+
+  				<h3> Python Courses</h3>
+  				<p> Programming For Everybody and it is completly free
+  				</p>
+  				<br>	
+                <div class = "getting_started">
+                   <b> Get Started </b>
+                   <img src="files\images\right_arrow.png" width="20px" height="20px">
+                </div>		
+
+  			</div>
+
+  			<div class="grid-item" style="background-color: #B4E0C4; margin-right: 10px; margin-left: 10px;">
+
+  				<h3> React Courses</h3>
+  				<p>  Programming For Everybody and it is up to 10% discount.
+  				</p>
+  				<br>	
+               <div class = "getting_started">
+                   <b> Get Started </b>
+                   <img src="files\images\right_arrow.png" width="20px" height="20px">
+                </div>	
+
+  		    </div>
+
+  			<div class="grid-item" style="background-color: #33FF33">
+
+  				<h3> Angular Courses</h3>
+  				<p> Programming For Everybody and it is up to 15% discount.
+  				</p>
+  				<br>	
+               <div class = "getting_started">
+                   <b> Get Started </b>
+                   <img src="files\images\right_arrow.png" width="20px" height="20px">
+                </div>		
+
+  			</div>
+
+  		</div>	
+
+  		<div class="grid-container2">
+
+  			<div class="grid-item" style="background-color: #00CCFF">
+
+  				<h3> JavaScript Courses</h3>
+  				<p>  Programming For Everybody and it is up to 20% discount.
+  				</p>	
+  				<br>
+              <div class = "getting_started">
+                   <b> Get Started </b>
+                   <img src="files\images\right_arrow.png" width="20px" height="20px">
+                </div>	
+
+  			</div>
+
+  			<div class="grid-item" style="background-color: #00FFCC; margin-right: 10px; margin-left: 10px;">
+
+  				<h3>CSS Courses</h3>
+  				<p>Programming For Everybody and it is up to 25% discount.
+  				</p>	
+  				<br>
+               <div class = "getting_started">
+                   <b> Get Started </b>
+                   <img src="files\images\right_arrow.png" width="20px" height="20px">
+                </div>	
+
+  			</div>
+
+  			<div class="grid-item" style="background-color: #B4E0C4">
+
+  				<h3> Cloud Computing Courses</h3>
+  				<p>Programming For Everybody and it is up to 5% discount.
+  				</p>
+  				<br>	
+                <div class = "getting_started">
+                   <b> Get Started </b>
+                   <img src="files\images\right_arrow.png" width="20px" height="20px">
+                </div>	
+
+  			</div>
+
+  		</div>	
+
+  		</div>	
+
+  	</div>
+
+
+  	<div class = "faq">
+  		<div class="faq_headinng" style="padding-top: 40px; padding-left: 20px;"> 
+  			<h3>Other Informations About The Courses</h3>
+  			<p> If you have any further questions please contact us.</p>
+  		</div>
+
+  		<br>
+
+  		<table style="width: 100%;">
+  			<tr>
+  				<td>
+  					<div class="div_boder"> 
+  						<h4> Will I get lifetime updates? </h4>
+  						<img src="files\images\plus.png" width="20px" height="20px" style="padding-top: 16px">
+  					</div>	
+  				</td>
+  				<td> 
+  					<div class="div_boder"> 
+  						<h4> Can I use any other code generator? </h4>
+  						<img src="files\images\plus.png" width="20px" height="20px" style="padding-top: 16px">
+  					</div>	
+  				</td>
+  			</tr>
+  			<tr>
+  				<td>
+  					<div class="div_boder"> 
+  						<h4> Doescourse provide code kit as well? </h4>
+  						<img src="files\images\plus.png" width="20px" height="20px" style="padding-top: 16px">
+  					</div>	
+  				</td>
+  				<td> 
+  					<div class="div_boder"> 
+  						<h4> What is your success ratio? </h4>
+  						<img src="files\images\plus.png" width="20px" height="20px" style="padding-top: 16px">
+  					</div>	
+  				</td>
+  			</tr>
+  		</table>
+  	</div>
+
+  </main>
+
+
+   <section id="location" style="background-color: #00FF33; margin-top: 40px;">
+    <table cellpadding ="20">
+    
+    <th>
+      <td>
+        <section id="loation">
+          <h2>My Location</h2>
+            <p>Ukhio Ward,Kyoto</p>
+            <p>kyoto City, State 〒615-0054</p>
+            <a href="https:\\www.hasanmahmudul.com" style="text-decoration: none;">www.hasanmahmudul.com</a>
+            <br>
+            <br>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4428.110770328129!2d135.76254280047013!3d34.96226586733328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010f6bb0b9c3dd%3A0x334918563c3e76e8!2sRyukoku%20University!5e0!3m2!1sen!2sjp!4v1673319243939!5m2!1sen!2sjp" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </td>
+      </section>
+      <td>
+
+  <section id="contact">
+
+    <h1>Contact Me</h1>
+    <p>Fill out the form below to get in touch with us:</p>
+    <form action="/submit-form" method="post">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" cols="20"></textarea><br><br>
+      <button type="submit">Submit</button>
+    </form> 
+    <br>
+    
+    </section>
+      </td>
+    </th>
+
+    </table>
+ <section>
+
+
+ <footer style="background-color: #3399CC; color:white; padding-bottom: 60px; margin-top: 40px;">
+      
+            <div>
+            
+                <div style="text-align: center; padding-top: 20px">
+                           
+                    <h1>
+                        <a href="index.html" rel="home">
+                            <img src="files\images\craspess.png" alt="logo" height="60px">
+                        </a>
+                    </h1>
+                    
+                    <b><p style="text-align: center; font-size: 20px;">Inspired from Online IT Courses home page dribble.</p></b>
+                
+                </div>
+               
+                <div class="footer-social" style="text-align: center;">
+                  
+                    <div style="color:white;">
+                        <a href="#" style="text-decoration: none;" > Facebook </a>
+                        <a href="#" style="margin-left: 10px; text-decoration: none;"> Twitter </a>
+                        <a href="#" style="margin-left: 10px; text-decoration: none;"> Instagram </a>
+                        <a href="#" style="margin-left: 10px; text-decoration: none;"> LinkedIn </a>
+                        <a href="#" style="margin-left: 10px; text-decoration: none;"> Discord </a>
+                    </div>
+
+
+                    
+                </div>
+
+             <div style="margin-top: 20px; margin-bottom: 40px;">
+               <p style="text-align: center;">Copyright 2023</p>
+             </div>
+                              
+    </footer>
+
+
+
+</body>
+</html>
